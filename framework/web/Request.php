@@ -234,6 +234,7 @@ class Request extends \yii\base\Request
      */
     public $ipHeaders = [
         'X-Forwarded-For',
+        'X-Real-Forwarded-For'
     ];
     /**
      * @var array list of headers to check for determining whether the connection is made via HTTPS.
